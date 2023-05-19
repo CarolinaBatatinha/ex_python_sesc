@@ -4,8 +4,4 @@ cotacaoDolar = float(input("Digite a cotação do dólar (US$) hoje em reais (R$
 valorEmReais = float(input("Digite quantos reais (R$) você tem: "))
 resultado = valorEmReais / cotacaoDolar
 
-print(
-    "Hoje, com R$ {0:.2f}, você pode comprar US$ {1:.2f}.".format(
-        valorEmReais, resultado
-    )
-)
+print("Hoje, com R$ {0:.2f}, você pode comprar US$ {1:.2f}.".format(valorEmReais, resultado))
