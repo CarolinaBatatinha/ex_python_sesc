@@ -17,6 +17,4 @@ kmRodado = distancia * 0.45
 valorPedagio = pedagios * 9
 valorPassagem = (tarifaEmbarque + kmRodado + valorPedagio) * 1.8
 
-print(
-    "Passageiro, sua passagem até {0} custa R$ {1:.2f}.".format(destino, valorPassagem)
-)
+print("Passageiro, sua passagem até {0} custa R$ {1:.2f}.".format(destino, valorPassagem))
