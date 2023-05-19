@@ -9,14 +9,8 @@
 
 nomeFuncionario = input("Digite seu nome: ")
 salarioBruto = float(input("Digite seu salário bruto em reais(R$): "))
-valorIR = float(
-    input("Digite o valor do Imposto de Renda a ser descontado em reais(R$): ")
-)
-valorINSS = float(
-    input("Digite o valor da previdência a ser descontado em reais(R$): ")
-)
+valorIR = float(input("Digite o valor do Imposto de Renda a ser descontado em reais(R$): "))
+valorINSS = float(input("Digite o valor da previdência a ser descontado em reais(R$): "))
 
 salarioLiquido = salarioBruto - valorIR - valorINSS
-print(
-    "{0}, seu salário líquido é de R$ {1:.2f}.".format(nomeFuncionario, salarioLiquido)
-)
+print("{0}, seu salário líquido é de R$ {1:.2f}.".format(nomeFuncionario, salarioLiquido))
