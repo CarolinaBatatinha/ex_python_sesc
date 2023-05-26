@@ -11,4 +11,4 @@ peso4 = int(4)
 
 media = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3) + (nota4 * peso4))/ (peso1 + peso2 + peso3 + peso4)
 
-print("A media ponderada dessas notas é {0}.".format(media))
+print(f'A media ponderada dessas notas é {media}.')
